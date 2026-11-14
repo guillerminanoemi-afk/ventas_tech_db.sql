@@ -37,6 +37,6 @@ SELECT id_producto, total_facturado
   FROM facturacion_por_producto;
 
 -- COMENTARIOS 
--- Hallazgo 1: El total gastado por cliente se encuentra concentrado en el cliente 1 quien ocupa el 41% del gasto total con 2 pedidos. Como el resto también tiene 2 pedidos, significa que compró productos cuyo precio unitario es el doble o triple del resto
--- Hallazgo 2: El id_producto 1 es uno de los que tiene menor cantidad de unidades vendidas (3) y es el que cuenta con el mayor monto facturado, lo que significa que el precio unitario es el mayor
--- Hallazgo 3: Solo el producto 1 y 3 se encuentran por encima del promedio de facturación, concentrando el 76% del total facturado entre el resto de los productos
+-- Hallazgo 1: El total gastado por cliente se encuentra concentrado en el cliente 1 quien representa el 41% de la facturación total con 2 pedidos. Como el resto de los clientes también realizó 2 pedidos, esto indica que el cliente 1 generó un mayor importe por pedido
+-- Hallazgo 2: El id_producto 1 es uno de los productos con menor cantidad de unidades vendidas (3) pero es el que registra la mayor facturación. Esto se debe a que tiene el precio unitario más alto.
+-- Hallazgo 3: Solo los productos 1 y 3 se encuentran por encima del promedio de facturación, concentrando aproximadamente el 77% del total facturado 
